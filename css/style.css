@@ -1,0 +1,50 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Vollkorn;
+}
+
+#header-content {
+	font-family: Vollkorn;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 5em;
+
+
+}
+#mainbox1 {
+	height:600px;
+	overflow: hidden;
+	background-image: url("../images/firstheader.jpg");
+	background-attachment: fixed;
+	opacity: .8;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid black;
+}
+#mainbox2 {
+	height:450px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+#box2-content{
+	margin: auto;
+	text-align: center;
+	padding-top: 55px;
+}
+
+#name {
+	font-size: 9em;
+}
+
+.header-content h3 {
+	margin: auto;
+	font-size: 3em;
+	padding-bottom: 1em;
+	padding-top: 10px;
+
+}
+
+.whole-carousel {
+	border: 1px solid black;
+}
