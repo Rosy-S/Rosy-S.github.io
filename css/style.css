@@ -1,11 +1,12 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	font-family: Vollkorn;
+	font-family: 'Vollkorn';
+	overflow-x: hidden;
 }
 
 #header-content {
-	font-family: Vollkorn;
+	font-family: 'Vollkorn';
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 5em;
@@ -21,17 +22,26 @@ body{
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-.carousel-top{
-	padding: 5px 0px 5px 5px;
-}
 #mainbox2 {
-	height:900px;
+	height:800px;
+	padding: 0px;
+	margin: 0px;
 	text-align: center;
+	overflow: hidden;
 }
 #box2-content{
 	margin: auto;
 	text-align: center;
 	padding-top: 40px;
+}
+
+#box2-body{
+	text-align: left;
+	font-family: 'Vollkorn', 'Open Sans', sans-serif;
+	padding-left: 40px;
+}
+#box2-body h4{
+	line-height: 140%;
 }
 
 #name {
@@ -40,10 +50,48 @@ body{
 
 #box3-content{
 	background-image: url("../images/box3.jpg");
+	background-size: 110%;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	overflow: hidden;
 
 }
+
+.mainbox4 {
+	text-align: center;
+}
+
+#mainbox5 {
+	text-align: center; 
+	height: 600px;
+	overflow: hidden;
+	background-image: url("../images/bridge.jpg");
+	opacity: .8;
+	font-weight: normal;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#mainbox5-content {
+	margin: 0% 13% 5% 13%;
+	background-color: #ffffff;
+
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
+#mainbox5-content h3{
+	padding: 20px;
+	font-weight: normal;
+	color: #000000;
+
+}
+.text-center{
+	text-align: center;
+	background-color: #2b2b2b;
+	color: white;
+	padding: 10px 0px 10px 0px;
+}
+
 
 .header-content h3 {
 	margin: auto;
@@ -54,11 +102,11 @@ body{
 }
 .box-head h2{
 	font-size: 4em;
-	padding-bottom: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
-
-#box2-body{
-	margin: 10px 150px 10px 150px;
+.mainbox4-content{
+	padding: 0px 10% 1% 10%;
 }
 
 
@@ -67,13 +115,16 @@ body{
 	color: white;
 	border-radius: 10px 10px 0px 0px;
 	border-top: 2px solid #2b2b2b;
+	padding: 5px 0px 5px 5px;
 }
+
+
 .carousel-body{
 	background: white;
+	font-size:1.3em;
 	padding:0px 7px 1px 7px;
 	border-bottom: 2px solid #2b2b2b;
 	border-radius: 0px 0px 10px 10px;
 }
 
-.whole-carousel {
-}
+

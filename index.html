@@ -10,20 +10,50 @@
 
 <!-- 	fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
 
 
 	<link href="css/style.css" rel="stylesheet">
 	<title>Rosy Sanchez</title>
 
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand">Rosy Sanchez</span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#mainbox1">Home</a></li>
+        <li><a href="#mainbox2">About Me</a></li>
+        <li><a href="#box3-content">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href='#mainbox5'>Contact Me </a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <!-- 	<nav class="navbar navbar-default navbar-fixed-top"> -->
-	<div class="container-fluid">
+	<div class="container-fluid" style="padding: 0px">
 <!-- 		<div class="navbar-header"> -->
 		<div class="row">
 			<div id="mainbox1">
 				<div id="header-content">
+				<br>
+				<br>
 					<h1 id="name"><em>Rosy Sanchez</em></h1>
 					<h3>Software Enginner</h3>
 					<a href="https://linkedin.com/in/rosysanchez"><img src="images/webicon-linkedin.png" alt="linkedin"></a>
@@ -33,53 +63,168 @@
 			</div>
 		</div>
 
+		<div id="mainbox2">
+			<div class="row">
+				<div class="box-head">
+				
+					<h2> About Rosy</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class='col-md-4'>
+					<img src="images/headshotbox2.png" style="height:350px">
+				</div>
+				<div class='col-md-7'id="box2-body">
+
+					<h4> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI love creating beautiful and intricate things. I was first introduced to technology and engineering at UC Berkeley, where I took the Intro to Computer Science course to fulfill a requirement. After that class, however, I was hooked. Web development empowered me to build and provided me a new way of thinking logically to create and to interact with computers. I took more computer science courses and then pursued a Technical Support Specialist role at a startup in San Francisco with the intent to learn more about building software. At the same time, I was amazed at the amount of resources the internet has for learning how to program. After work I would take online classes and dabble in HTML/CSS, Python, SQL, JavaScript, and anything I found interesting. On the weekends, I would go to several tech schools like NodeSchoolSF and RailsBridge. Seeing how vast software engineering is and the potential for infinite learning and creating things left me awestruck.
+					<br>
+					<br>
+
+					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDriven to learn at an accelerated rate, I applied and got accepted to Hackbright, an all women software engineer bootcamp in San Francisco with a 4% - 6% acceptance rate. I have now graduated Hackbright and am loving this new medium to express myself and my ideas through code. When I am not trying to learn the latest web framework, I love attending hackathons and tech meetups with my friends, taking a chill night in to read, exploring San Francisco and its many restaurants, and working up to running a marathon. </h4>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+				<div class="col-md-1">
+				</div>
+				</div>
+			</div>
+
+
+	<div id="box3-content">
+
 		<div class="row">
-			<div id="mainbox2">
-				<div id="box2-content">
-					<div class="box-head">
-						<h2> About Rosy</h2>
+			<div class="box-head">
+				<center><h2 style="color: white; text-shadow: 1px 2px #2b2b2b;">Project Work </h2></center>
+			</div>
+		</div> 
+
+		<div class="row">
+
+		<!-- filler space -->
+		<div class="col-md-1">
+		</div>
+		<div class="col-md-5">		
+			<div class="whole-carousel">
+				<div class="carousel-top">
+						<b>RunMate</b>
+						<br>
 					</div>
-					<div id="box2-body">
-						<img src="images/headshotbox2.jpg" style="height:350px">
-						<br>
-						<br>
-						<br>
-						<h4> Ros is pretth awesome. this is somer randon text htat I am gong to replace, but yeah, i just need text righ tnow. lets copy pastse from somehwere. where can i copy paste from? </h4>
-						<br>
-						<br>
-						<br>
+					<div id="carousel-run" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-run" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-run" data-slide-to="1"></li>
+							<li data-target="#carousel-run" data-slide-to="2"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="images/runmate1.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/runmate2.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/runmate3.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/runmate4.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/runmate5.png" alt="...">
+							</div>
+						</div>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-run" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div> 
+		</div>
+			<div class="carousel-body">
+			<p><u>RUNMATE</u>: This was my final individual project at Hackbright. RunMate is a web app that aims to find runnining partners based on your proximity and mile time. As soon as you log in, the app will find your location using HTML5 Geolocation and display runs that you can go on with people that are within 5 miles from you and that run at a similar mile time. If you see no runs that you want to go on, or if you want to make your own run, you can choose to "run now" or "schedule a run". Using Google Maps draggable markers, you can choose where you want to start your run. When someone chooses to run with you, the app will notify you and your running partner via text and the user's inbox, where you can either accept or reject the run by texting back to the app or by rejecting on your inbox.</p>
+			<p> TECHNOLOGY STACK: Flask, Python, HTML5 Geolocation, Twilio API, Google Maps API, Bootstrap, SQLite3, SQLAlchemy, Chart.js, HTML/CSS</p>
+
+			</div>
+		</div>
+		<div class="col-md-5">		
+			<div class="whole-carousel">
+				<div class="carousel-top">
+						<b>Wanderlust</b>
 						<br>
 					</div>
+					<div id="carousel-wanderlust" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-wanderlust" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-wanderlust" data-slide-to="1"></li>
+							<li data-target="#carousel-wanderlust" data-slide-to="2"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="images/wanderlust1.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/wanderlust2.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/wanderlust3.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/wanderlust4.png" alt="...">
+							</div>
+							<div class="item">
+								<img src="images/wanderlust5.png" alt="...">
+							</div>
+						</div>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-wanderlust" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-wanderlust" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div> 
+				<div class="carousel-body">
+				<p><u>WANDERLUST</u>: Completed in 24 hours at the Emirates Hackathon, Wanderlust is a web app that aims to simplify group traveling. Given two different locations and budgets, Wanderlust will find competitive ailine prices for two friends wishing to travel to the same airport. The flights the app gives are within the budget specified, or else it will find the cheapest flight. The app also includes AirBnB information close to the destination airport for the 2 guests to find lodging, as well as uses the Xola API to find events close by. 
+
+				<p style="margin-bottom: 0px";>TECHNOLOGY STACK: 
+				Google Flights API, Google Maps API, Xola API, AirBnb request calls, Python, Flask, Twitter Bootstrap, HTML/CSS, SQLite3, JavaScript. </p> <br><br>
 				</div>
 			</div>
 		</div>
 
-
-
-
-	<div id="box3-content">
-		<div class="row">
-			<div class="box-head">
-				<center><h2 style="color: white">Project Work </h2></center>
-			</div>
-		</div> 
+		<div class='col-md-1'>
+		</div>
+	</div>
+	<br>
+	<br>
 
 		<div class="row">
 
 				<!-- filler space -->
 			<div class="col-md-1">
 			</div>
-			<div class="col-md-4">
+			
+			<div class="col-md-5">
 				<div class="whole-carousel">
 					<div class="carousel-top">
 						<b>Study Tracker</b>
 					</div>
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div id="carousel-study" class="carousel slide" data-ride="carousel">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							<li data-target="#carousel-study" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-study" data-slide-to="1"></li>
 						</ol>
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
@@ -91,11 +236,11 @@
 							</div>
 						</div>
 						<!-- Controls -->
-						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<a class="left carousel-control" href="#carousel-study" role="button" data-slide="prev">
 							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 							<span class="sr-only">Previous</span>
 						</a>
-						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<a class="right carousel-control" href="#carousel-study" role="button" data-slide="next">
 							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 							<span class="sr-only">Next</span>
 						</a>
@@ -111,11 +256,8 @@
 			</div>
 
 
-			<div class="col-md-1">
-			</div>
 
-
-			<div class="col-md-4">		
+			<div class="col-md-5">		
 				<div class="whole-carousel">
 					<div class="carousel-top">
 						<b>Ratings</b>
@@ -152,8 +294,9 @@
 					<div class="carousel-body">
 					<br>
 
-					<p><u>RATINGS</u>: This was the biggest project of Hackbright's guided curriculum. Built by myself and my classmate Shilpa, Ratings is a movie recommendations application where users can view and rate thousands of movies. Ratings will predict that users' rating through machine learning via the Pearson correlation. </p>
+					<p><u>RATINGS</u>: This was the biggest project of Hackbright's guided curriculum. Built with classmate Shilpa, Ratings is a movie recommendations application where users can view and rate thousands of movies. Ratings will predict that users' rating through machine learning via the Pearson correlation. </p>
 					<p> Technology Stack: Python, Flask, SQLite3, HTML/CSS, and SQLAlchemy.</p>
+					<br>
 					<br>
 					</div> 
 				</div>
@@ -164,57 +307,112 @@
 			</div>
 		</div>
 		<br>
-		<br>
+	</div> <!-- closing box 3 project content -->
+
+	<div class='mainbox4' id='experience'>
+		<div class="box-head">
+			<br>
+			<h2>Experience </h2>
+		</div>
+		<div class="mainbox4-content">
+			<h3><u>Hackbright Academy</u> </h3>
+			<h4> Software Engineer Fellow </h4> 
+			<p>Hackbright Academy is a highly competitive (acceptance rate: 4% - 6%) full-stack web development and software engineering program for women with a mission to increase female representation in tech through education, mentorship and community. The curriculum teaches full stack software engineering using Python, Flask, JavaScript, jQuery, SQL and ORMs, HTML/CSS, and git.</p>
+			<h5><em> June 2015 - September 2015 </em></h5>
+
+			<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+		</div>
+		<div class="mainbox4-content">
+			<h3><u>FiveStars Loyalty</u></h3>
+			<h4> Technical Support Specialist </h4>
+			<p> FiveStars is the fastest growing company in customer loyalty and marketing automation for local businesses. Launched out of Y-Combinator three years ago to democratize Fortune 500-level loyalty technology, we now drive two million customer visits per month across our network of over five thousand businesses and have raised a total of $45 million in funding from top-tier investors like Menlo Ventures, Lightspeed, and DCM. </p> 
+			<p> As an early employee in a technical support role, I wore many hats. Besides helping businesses troubleshoot software in POS computers, tablets and OS X through phone, onsite, and email suppot, I also was an Account Manager and Cancellation Representative for Spanish speaking business owners, was in charge of building the internal knowledge base, and on-boarded new-hires within two weeks by creating training materials and conducting one-on-one trainings.</p>
+			<h5><em> Febuary 2014 - June 2015 </em></h5>
+			<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+		</div>
+		<div class="mainbox4-content">
+			<h3><u> University of California, Berkeley Educational Technology Services</u> </h3>
+			<h4> SCCS IT Consultant </h4>
+			<p> As an IT consultant, I provided IT coslulting services to students, faculty, and staff across multiple platforms with installing and troubleshooting technical problems with UC Berkeley provided software (Adobe, MS Office Suite, UC Berkeley Antivirus, proxy network setup, Windows 8 installation). I offered networking support of mobile phones and configured them to connect to Calmail. I also diagnosed modem and network configuration issues with on-campus networks (DHCP, Airbears, Airbears2). I also worked with other consultants to compile information and write technical documentation for the SCCS internal database.</p>
+			<h5><em> March 2013 - December 2013 </em></h5>
+			<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+		</div> 
+		<div class="mainbox4-content">
+			<h3><u> University of California, Berkeley Educational Technology Services </u></h3>	
+			<h4> Function Lead </h4>
+			<p> Origially a Computer Consultant, I was promoted to a Function Lead. Aside from helping clients across 9 UC Berkeley computer facilities, as a Function Lead I supervised a team of 4 Junior Consultants. Additionally, I collaborated with management supervisors and the senior team to improve facilities and client services through weekly meetings where we created project agendas and discussed potential improvements in IT service for the UC Berkeley computer labs. I administerd interviews for Junior Consultants and promotions. I oversaw the application development and interview process for Webcast Operational Staff team. After the hiring process, I oversaw the Webcast Operational Staff team through writing training and documentation materials, training team members on video trimming/publishing process, and planning schedule to deliver over 150 webcasts weekly to UC Berkeley staff and faculty on <webcasts.bereley.edu>. </p>
+			<h5><em> December 2012 - December 2013 </em></h5>
+			<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>	
+		</div>
+
+	</div>
 
 
-		<div class="row">
+	<div class='mainbox4' id='education'>
+		<div class="box-head">
+			<br>
+			<h2> Education </h2>
+		</div>
+		<div class='mainbox4-content'>
+			<h3> Hackbright Academy </h3>
+			<h5> Full-Stack Software Engineering </h5>
+			<h5><em> June 2015 - September 2015 </em></h5>
+			<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+		</div>
+		<div class='mainbox4-content'>
+			<h3> University of California, Berkeley </h3>
+			<h5> B.A. Social Welfare </h5>
+			<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+	</div>
+	</div> <!-- closing mainbox4 -->
 
-			<!-- filler space -->
-			<div class="col-md-1">
+	<div id='mainbox5'>
+		<div class="box-head">
+			<h2 style="text-shadow: 1px 1px white;"> Interested in Contacting Me? </h2>
+			<div id='mainbox5-content'>
+				<br>
+				<h3> I am always open to new career and freelancing opportunites
+				<br>
+				<br>
+				<span class="glyphicon glyphicon-map-marker"></span> San Francisco Bay Area, San Diego
+				<br>
+				<span class="glyphicon glyphicon-earphone"></span>PHONE: 760.703.0246
+				<br>
+				<span class="glyphicon glyphicon-envelope"></span> EMAIL: sanchezrosy42@gmail.com
+				<br>
+				<br>
+				</h3>
+
 			</div>
 
-			<div class="col-md-5">		
-				<div class="whole-carousel">
-					<div class="carousel-top">
-						RunMate
-					</div>
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-						<!-- Indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						</ol>
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img src="images/ratingshomepage.png" alt="...">
-							</div>
-							<div class="item">
-								<img src="images/ratingsmovies.png" alt="...">
-							</div>
-							<div class="item">
-								<img src="images/ratingsdalmations.png" alt="...">
-							</div>
-						</div>
-						<!-- Controls -->
-						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
-					RUNMATE: I worked on this project individually as my final independent project from Hackbright to complete in 5 weeks. 
-				</div>
-			</div>
 
 		</div>
 
 
 	</div>
-	</nav>
+</div> <!-- closing containter -->
+<footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="Return to Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Rosy Sanchez <span><i class="fa fa-copyright"></i>  2015</span></p><br>
+</footer>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();    
+})
+$(document).ready(function(){
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  event.preventDefault();
+  var hash = this.hash;
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+    window.location.hash = hash;
+    });
+  });
+})
+</script>
 
 </body>
